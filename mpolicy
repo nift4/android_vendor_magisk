@@ -1,0 +1,2 @@
+echo "*** MPolicy invoked ***"
+LD_LIBRARY_PATH=$ANDROID_BUILD_TOP/vendor/magisk $ANDROID_BUILD_TOP/vendor/magisk/linker64 $ANDROID_BUILD_TOP/$1 --magisk --load $2 --save $2
